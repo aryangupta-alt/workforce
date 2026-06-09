@@ -1,0 +1,501 @@
+{
+    "Wohlig Active Employee Data.xlsx": {
+        "Dashboard": [
+            {
+                "WOHLIG PROJECT DASHBOARD": "Total Employees\n31",
+                "Unnamed: 1": NaN,
+                "Unnamed: 2": "Total Projects\n10",
+                "Unnamed: 4": "Locations\n6",
+                "Unnamed: 6": "Updated\n01-June-2026"
+            },
+            {
+                "WOHLIG PROJECT DASHBOARD": "Location",
+                "Unnamed: 1": "Count",
+                "Unnamed: 2": NaN,
+                "Unnamed: 4": NaN,
+                "Unnamed: 6": NaN
+            },
+            {
+                "WOHLIG PROJECT DASHBOARD": "Office",
+                "Unnamed: 1": 21,
+                "Unnamed: 2": NaN,
+                "Unnamed: 4": NaN,
+                "Unnamed: 6": NaN
+            },
+            {
+                "WOHLIG PROJECT DASHBOARD": "Marol",
+                "Unnamed: 1": 2,
+                "Unnamed: 2": NaN,
+                "Unnamed: 4": NaN,
+                "Unnamed: 6": NaN
+            },
+            {
+                "WOHLIG PROJECT DASHBOARD": "Delhi",
+                "Unnamed: 1": 3,
+                "Unnamed: 2": NaN,
+                "Unnamed: 4": NaN,
+                "Unnamed: 6": NaN
+            },
+            {
+                "WOHLIG PROJECT DASHBOARD": "WFH",
+                "Unnamed: 1": 1,
+                "Unnamed: 2": NaN,
+                "Unnamed: 4": NaN,
+                "Unnamed: 6": NaN
+            },
+            {
+                "WOHLIG PROJECT DASHBOARD": "Bangalore branch",
+                "Unnamed: 1": 2,
+                "Unnamed: 2": NaN,
+                "Unnamed: 4": NaN,
+                "Unnamed: 6": NaN
+            },
+            {
+                "WOHLIG PROJECT DASHBOARD": "Airoli",
+                "Unnamed: 1": 1,
+                "Unnamed: 2": NaN,
+                "Unnamed: 4": NaN,
+                "Unnamed: 6": NaN
+            }
+        ],
+        "Active": [
+            {
+                "WOHLIG DEVELOPER PROJECT REPORT": "No.",
+                "Unnamed: 1": "Active Employee",
+                "Unnamed: 2": "DOJ",
+                "Unnamed: 3": "Current Role",
+                "Unnamed: 4": "Current Project",
+                "Unnamed: 5": "Current Work location",
+                "Unnamed: 6": "Project Start",
+                "Unnamed: 7": "Project End",
+                "Unnamed: 8": "Reporting To"
+            },
+            {
+                "WOHLIG DEVELOPER PROJECT REPORT": 1,
+                "Unnamed: 1": "Pratik Sawant",
+                "Unnamed: 2": "2022-09-05 00:00:00",
+                "Unnamed: 3": "Software Developer",
+                "Unnamed: 4": "Vaulty",
+                "Unnamed: 5": "Office",
+                "Unnamed: 6": "2026-02-09 00:00:00",
+                "Unnamed: 7": "2026-11-03 00:00:00",
+                "Unnamed: 8": "Jagruti Shah"
+            },
+            {
+                "WOHLIG DEVELOPER PROJECT REPORT": 2,
+                "Unnamed: 1": "Osama Patel",
+                "Unnamed: 2": "2023-04-26 00:00:00",
+                "Unnamed: 3": "Software Developer",
+                "Unnamed: 4": "JM Finance",
+                "Unnamed: 5": "Marol",
+                "Unnamed: 6": "2026-02-18 00:00:00",
+                "Unnamed: 7": NaN,
+                "Unnamed: 8": "Jagruti Shah"
+            },
+            {
+                "WOHLIG DEVELOPER PROJECT REPORT": 3,
+                "Unnamed: 1": "Swaraj Baswad",
+                "Unnamed: 2": "2023-06-01 00:00:00",
+                "Unnamed: 3": "Software Developer",
+                "Unnamed: 4": "JM Finance",
+                "Unnamed: 5": "Marol",
+                "Unnamed: 6": "2025-12-15 00:00:00",
+                "Unnamed: 7": NaN,
+                "Unnamed: 8": "Jagruti Shah"
+            },
+            {
+                "WOHLIG DEVELOPER PROJECT REPORT": 4,
+                "Unnamed: 1": "Samay Gada",
+                "Unnamed: 2": "2023-07-01 00:00:00",
+                "Unnamed: 3": "Tech Lead",
+                "Unnamed: 4": NaN,
+                "Unnamed: 5": "Bangalore branch",
+                "Unnamed: 6": NaN,
+                "Unnamed: 7": NaN,
+                "Unnamed: 8": "Chintan Shah"
+            },
+            {
+                "WOHLIG DEVELOPER PROJECT REPORT": 5,
+                "Unnamed: 1": "Bilal Sani",
+                "Unnamed: 2": "2023-07-01 00:00:00",
+                "Unnamed: 3": "Tech Lead",
+                "Unnamed: 4": "Jindal Steel",
+                "Unnamed: 5": "Delhi",
+                "Unnamed: 6": "2026-05-25 00:00:00",
+                "Unnamed: 7": "2026-09-25 00:00:00",
+                "Unnamed: 8": "Chintan Shah"
+            },
+            {
+                "WOHLIG DEVELOPER PROJECT REPORT": 6,
+                "Unnamed: 1": "Ramesh Lodh",
+                "Unnamed: 2": "2024-01-17 00:00:00",
+                "Unnamed: 3": "DevOps",
+                "Unnamed: 4": "TUI",
+                "Unnamed: 5": "WFH",
+                "Unnamed: 6": "2026-02-09 00:00:00",
+                "Unnamed: 7": "2026-06-24 00:00:00",
+                "Unnamed: 8": "Kailash Lakampelli "
+            },
+            {
+                "WOHLIG DEVELOPER PROJECT REPORT": 7,
+                "Unnamed: 1": "Jainam Nisar",
+                "Unnamed: 2": "2024-09-01 00:00:00",
+                "Unnamed: 3": "Software Developer",
+                "Unnamed: 4": "Jindal Steel",
+                "Unnamed: 5": "Delhi",
+                "Unnamed: 6": "2026-05-25 00:00:00",
+                "Unnamed: 7": "2026-09-25 00:00:00",
+                "Unnamed: 8": "Bilal Saini"
+            },
+            {
+                "WOHLIG DEVELOPER PROJECT REPORT": 8,
+                "Unnamed: 1": "Dhruv Gansinghani",
+                "Unnamed: 2": "2024-09-01 00:00:00",
+                "Unnamed: 3": "Gen AI Developer",
+                "Unnamed: 4": "Mahindra CFO",
+                "Unnamed: 5": "Office",
+                "Unnamed: 6": "2026-05-25 00:00:00",
+                "Unnamed: 7": "2026-08-25 00:00:00",
+                "Unnamed: 8": "Bilal Saini"
+            },
+            {
+                "WOHLIG DEVELOPER PROJECT REPORT": 9,
+                "Unnamed: 1": "Naveed Shaikh",
+                "Unnamed: 2": "2024-09-02 00:00:00",
+                "Unnamed: 3": "Devops",
+                "Unnamed: 4": "Jindal Steel",
+                "Unnamed: 5": "Delhi",
+                "Unnamed: 6": "2026-05-25 00:00:00",
+                "Unnamed: 7": "2026-09-25 00:00:00",
+                "Unnamed: 8": "Bilal Saini"
+            },
+            {
+                "WOHLIG DEVELOPER PROJECT REPORT": 10,
+                "Unnamed: 1": "Jagruti Shah",
+                "Unnamed: 2": NaN,
+                "Unnamed: 3": "Product Manager",
+                "Unnamed: 4": "Vaulty",
+                "Unnamed: 5": "Office",
+                "Unnamed: 6": "2026-02-09 00:00:00",
+                "Unnamed: 7": "2026-11-03 00:00:00",
+                "Unnamed: 8": "Chintan Shah"
+            },
+            {
+                "WOHLIG DEVELOPER PROJECT REPORT": 11,
+                "Unnamed: 1": "Mustafa Mohammed",
+                "Unnamed: 2": "2025-05-01 00:00:00",
+                "Unnamed: 3": "Software Developer",
+                "Unnamed: 4": "Apollo Hispital",
+                "Unnamed: 5": "Office",
+                "Unnamed: 6": "2026-04-20 00:00:00",
+                "Unnamed: 7": "2026-06-02 00:00:00",
+                "Unnamed: 8": "Samay Gada"
+            },
+            {
+                "WOHLIG DEVELOPER PROJECT REPORT": NaN,
+                "Unnamed: 1": NaN,
+                "Unnamed: 2": NaN,
+                "Unnamed: 3": NaN,
+                "Unnamed: 4": "Jindal Steel",
+                "Unnamed: 5": "Office",
+                "Unnamed: 6": "2026-05-25 00:00:00",
+                "Unnamed: 7": "2026-09-25 00:00:00",
+                "Unnamed: 8": "Bilal Saini"
+            },
+            {
+                "WOHLIG DEVELOPER PROJECT REPORT": 12,
+                "Unnamed: 1": "Arham Sangoi",
+                "Unnamed: 2": "2025-05-01 00:00:00",
+                "Unnamed: 3": "Gen AI Developer",
+                "Unnamed: 4": "Mahindra CFO",
+                "Unnamed: 5": "Office",
+                "Unnamed: 6": "2026-05-25 00:00:00",
+                "Unnamed: 7": "2026-08-25 00:00:00",
+                "Unnamed: 8": "Bilal Saini"
+            },
+            {
+                "WOHLIG DEVELOPER PROJECT REPORT": 13,
+                "Unnamed: 1": "Hanishka Jain",
+                "Unnamed: 2": "2025-11-01 00:00:00",
+                "Unnamed: 3": "Video Editor",
+                "Unnamed: 4": "Pocket Studio",
+                "Unnamed: 5": "Office",
+                "Unnamed: 6": "2026-05-11 00:00:00",
+                "Unnamed: 7": NaN,
+                "Unnamed: 8": "Chintan Shah"
+            },
+            {
+                "WOHLIG DEVELOPER PROJECT REPORT": 14,
+                "Unnamed: 1": "Agam Shah",
+                "Unnamed: 2": "2025-11-13 00:00:00",
+                "Unnamed: 3": "Gen AI Developer",
+                "Unnamed: 4": "Vaulty",
+                "Unnamed: 5": "Office",
+                "Unnamed: 6": "2026-02-09 00:00:00",
+                "Unnamed: 7": "2026-11-03 00:00:00",
+                "Unnamed: 8": "Jagruti Shah"
+            },
+            {
+                "WOHLIG DEVELOPER PROJECT REPORT": NaN,
+                "Unnamed: 1": NaN,
+                "Unnamed: 2": NaN,
+                "Unnamed: 3": NaN,
+                "Unnamed: 4": "Apollo Hispital",
+                "Unnamed: 5": NaN,
+                "Unnamed: 6": "2026-04-20 00:00:00",
+                "Unnamed: 7": "2026-06-02 00:00:00",
+                "Unnamed: 8": "Samay Gada"
+            },
+            {
+                "WOHLIG DEVELOPER PROJECT REPORT": 15,
+                "Unnamed: 1": "Siddesh Kale",
+                "Unnamed: 2": "2026-02-01 00:00:00",
+                "Unnamed: 3": "Software Developer",
+                "Unnamed: 4": "No Task",
+                "Unnamed: 5": "Office",
+                "Unnamed: 6": NaN,
+                "Unnamed: 7": NaN,
+                "Unnamed: 8": "Dhruv Gansinghani"
+            },
+            {
+                "WOHLIG DEVELOPER PROJECT REPORT": 16,
+                "Unnamed: 1": "Nishant Patil",
+                "Unnamed: 2": "2026-02-01 00:00:00",
+                "Unnamed: 3": "Software Developer",
+                "Unnamed: 4": "No Task",
+                "Unnamed: 5": "Office",
+                "Unnamed: 6": NaN,
+                "Unnamed: 7": NaN,
+                "Unnamed: 8": "Dhruv Gansinghani"
+            },
+            {
+                "WOHLIG DEVELOPER PROJECT REPORT": 17,
+                "Unnamed: 1": "Rajvee Gala",
+                "Unnamed: 2": NaN,
+                "Unnamed: 3": "Data Analysist",
+                "Unnamed: 4": "IKS SRE",
+                "Unnamed: 5": "Airoli",
+                "Unnamed: 6": NaN,
+                "Unnamed: 7": NaN,
+                "Unnamed: 8": "Chintan Shah"
+            },
+            {
+                "WOHLIG DEVELOPER PROJECT REPORT": 18,
+                "Unnamed: 1": "Shubham Jain",
+                "Unnamed: 2": "2026-04-08 00:00:00",
+                "Unnamed: 3": "Gen AI - Intern",
+                "Unnamed: 4": "Weekly automation task",
+                "Unnamed: 5": "Office",
+                "Unnamed: 6": "2026-06-01 00:00:00",
+                "Unnamed: 7": "2026-06-16 00:00:00",
+                "Unnamed: 8": "Ankit Shrivastav"
+            },
+            {
+                "WOHLIG DEVELOPER PROJECT REPORT": 19,
+                "Unnamed: 1": "Shubham Satpute",
+                "Unnamed: 2": "2026-04-09 00:00:00",
+                "Unnamed: 3": "Gen AI - Intern",
+                "Unnamed: 4": "Weekly automation task",
+                "Unnamed: 5": "Office",
+                "Unnamed: 6": "2026-06-01 00:00:00",
+                "Unnamed: 7": "2026-06-16 00:00:00",
+                "Unnamed: 8": "Ankit Shrivastav"
+            },
+            {
+                "WOHLIG DEVELOPER PROJECT REPORT": 20,
+                "Unnamed: 1": "Chintan Limbad",
+                "Unnamed: 2": "2026-04-20 00:00:00",
+                "Unnamed: 3": "Data Engineer - Fresher",
+                "Unnamed: 4": "No Task",
+                "Unnamed: 5": "Office",
+                "Unnamed: 6": NaN,
+                "Unnamed: 7": NaN,
+                "Unnamed: 8": "Rajvee Gala"
+            },
+            {
+                "WOHLIG DEVELOPER PROJECT REPORT": 21,
+                "Unnamed: 1": "Praveen Kumar",
+                "Unnamed: 2": "2026-04-22 00:00:00",
+                "Unnamed: 3": "Gen AI - Fresher",
+                "Unnamed: 4": "No Task",
+                "Unnamed: 5": "Bangalore branch",
+                "Unnamed: 6": NaN,
+                "Unnamed: 7": NaN,
+                "Unnamed: 8": "Samay Gada"
+            },
+            {
+                "WOHLIG DEVELOPER PROJECT REPORT": 22,
+                "Unnamed: 1": "Aryan Gupta",
+                "Unnamed: 2": "2026-05-04 00:00:00",
+                "Unnamed: 3": "Gen AI - Intern",
+                "Unnamed: 4": "GenAI Learning Task",
+                "Unnamed: 5": "Office",
+                "Unnamed: 6": "2026-06-01 00:00:00",
+                "Unnamed: 7": "2026-06-16 00:00:00",
+                "Unnamed: 8": "Ankit Shrivastav"
+            },
+            {
+                "WOHLIG DEVELOPER PROJECT REPORT": 23,
+                "Unnamed: 1": "Dhruv Solanki",
+                "Unnamed: 2": "2026-05-04 00:00:00",
+                "Unnamed: 3": "Gen AI - Intern",
+                "Unnamed: 4": "GenAI Learning Task",
+                "Unnamed: 5": "Office",
+                "Unnamed: 6": "2026-06-01 00:00:00",
+                "Unnamed: 7": "2026-06-16 00:00:00",
+                "Unnamed: 8": "Ankit Shrivastav"
+            },
+            {
+                "WOHLIG DEVELOPER PROJECT REPORT": 24,
+                "Unnamed: 1": "Nishita Patel",
+                "Unnamed: 2": "2026-05-04 00:00:00",
+                "Unnamed: 3": "Gen AI - Intern",
+                "Unnamed: 4": "GenAI Learning Task",
+                "Unnamed: 5": "Office",
+                "Unnamed: 6": "2026-06-01 00:00:00",
+                "Unnamed: 7": "2026-06-16 00:00:00",
+                "Unnamed: 8": "Ankit Shrivastav"
+            },
+            {
+                "WOHLIG DEVELOPER PROJECT REPORT": 25,
+                "Unnamed: 1": "Dhruv Bharwada",
+                "Unnamed: 2": "2026-05-04 00:00:00",
+                "Unnamed: 3": "Gen AI - Intern",
+                "Unnamed: 4": "E-Mail automation ",
+                "Unnamed: 5": "Office",
+                "Unnamed: 6": "2026-06-01 00:00:00",
+                "Unnamed: 7": "2026-06-16 00:00:00",
+                "Unnamed: 8": "Chintan Shah"
+            },
+            {
+                "WOHLIG DEVELOPER PROJECT REPORT": 26,
+                "Unnamed: 1": "Harsh Mishra",
+                "Unnamed: 2": "2026-05-04 00:00:00",
+                "Unnamed: 3": "Gen AI - Intern",
+                "Unnamed: 4": "E-Mail automation ",
+                "Unnamed: 5": "Office",
+                "Unnamed: 6": "2026-06-01 00:00:00",
+                "Unnamed: 7": "2026-06-16 00:00:00",
+                "Unnamed: 8": "Chintan Shah"
+            },
+            {
+                "WOHLIG DEVELOPER PROJECT REPORT": 27,
+                "Unnamed: 1": "Akshay Ahuja",
+                "Unnamed: 2": "2026-05-04 00:00:00",
+                "Unnamed: 3": "Gen AI - Intern",
+                "Unnamed: 4": "Vaultify",
+                "Unnamed: 5": "Office",
+                "Unnamed: 6": "2026-06-01 00:00:00",
+                "Unnamed: 7": "2026-11-03 00:00:00",
+                "Unnamed: 8": "Jagruti Shah"
+            },
+            {
+                "WOHLIG DEVELOPER PROJECT REPORT": 28,
+                "Unnamed: 1": "Sakshi Patil",
+                "Unnamed: 2": "2026-05-04 00:00:00",
+                "Unnamed: 3": "Gen AI - Intern",
+                "Unnamed: 4": "Vaultify",
+                "Unnamed: 5": "Office",
+                "Unnamed: 6": "2026-06-01 00:00:00",
+                "Unnamed: 7": "2026-11-03 00:00:00",
+                "Unnamed: 8": "Jagruti Shah"
+            },
+            {
+                "WOHLIG DEVELOPER PROJECT REPORT": 29,
+                "Unnamed: 1": "Jigar Rambhiya",
+                "Unnamed: 2": "2026-05-15 00:00:00",
+                "Unnamed: 3": "Machine learning - Intern",
+                "Unnamed: 4": "No Task",
+                "Unnamed: 5": "Office",
+                "Unnamed: 6": NaN,
+                "Unnamed: 7": NaN,
+                "Unnamed: 8": "Rajvee Gala"
+            },
+            {
+                "WOHLIG DEVELOPER PROJECT REPORT": 30,
+                "Unnamed: 1": "Parth Gala",
+                "Unnamed: 2": "2026-06-01 00:00:00",
+                "Unnamed: 3": "Sr. Backend Developer",
+                "Unnamed: 4": "GenAI Learning Task",
+                "Unnamed: 5": "Office",
+                "Unnamed: 6": "2026-06-01 00:00:00",
+                "Unnamed: 7": "2026-06-16 00:00:00",
+                "Unnamed: 8": "Ankit Shrivastav"
+            },
+            {
+                "WOHLIG DEVELOPER PROJECT REPORT": 31,
+                "Unnamed: 1": "Krishank Daga",
+                "Unnamed: 2": "2026-06-01 00:00:00",
+                "Unnamed: 3": "Gen AI - Intern",
+                "Unnamed: 4": "GenAI Learning Task",
+                "Unnamed: 5": "Office",
+                "Unnamed: 6": "2026-06-01 00:00:00",
+                "Unnamed: 7": "2026-06-16 00:00:00",
+                "Unnamed: 8": "Ankit Shrivastav"
+            }
+        ],
+        "Exit": [],
+        "Project": [
+            {
+                "Sr No.": 1,
+                "Project Name": "Apollo Hospital ",
+                "Client Name": "Apollo Hospital ",
+                "Owner Name": "Mustafa Mohammed",
+                "Owner Email": "mustafa.mohammed@wohlig.com",
+                "Project Team": "Mustafa Mohammed \nAgam Shah \nChintan Limbad",
+                "Start Date": "2026-04-20 00:00:00",
+                "End Date": "2026-05-31 00:00:00",
+                "Status": "Done"
+            },
+            {
+                "Sr No.": 2,
+                "Project Name": "Mahindra CFO",
+                "Client Name": "Mahindra ",
+                "Owner Name": "Jainam Nisar",
+                "Owner Email": "jainam.nisar@wohlig.com",
+                "Project Team": "Dhruv Gansinghani\nArham Sangoi",
+                "Start Date": "2026-05-26 00:00:00",
+                "End Date": "2026-09-25 00:00:00",
+                "Status": "In Progress"
+            }
+        ],
+        "Retainers": [
+            {
+                "Project Name": "Vaultify",
+                "Client Name": "VATSAL DESAI",
+                "Owner Name": "Jagruti Shah",
+                "Project Team": "Pratik Sawant\nSakshi Patil\nAkshay Ahuja",
+                "Project Start Date": "2026-02-09 00:00:00",
+                "Status": "In Progress"
+            },
+            {
+                "Project Name": "Jindal Steel JARVIS",
+                "Client Name": "Jindal Steel ",
+                "Owner Name": "Chintan Shah",
+                "Project Team": "Bilal Sani\nJainam Nisar\nNaveed Shaikh",
+                "Project Start Date": "2026-05-26 00:00:00",
+                "Status": "In Progress"
+            },
+            {
+                "Project Name": "IKS SRE",
+                "Client Name": "IKS",
+                "Owner Name": "Chintan Shah",
+                "Project Team": "Rajvee Gala",
+                "Project Start Date": "NaT",
+                "Status": "In Progress"
+            }
+        ],
+        "Internal": [
+            {
+                "Project Name": "Pocket Studio",
+                "Client Name": "Wohlig",
+                "Owner Name": "Chintan Shah",
+                "Owner Email": "chintan@wohlig.com",
+                "Project Team": "Aiman Ansari \nWajid Jamadar",
+                "Start Date": "2025-07-14 00:00:00",
+                "End Date": "2026-05-20 00:00:00",
+                "Status": "Closed"
+            }
+        ]
+    }
+}
