@@ -1,0 +1,134 @@
+{
+    "workforce_overview": {
+        "active_employees": 31,
+        "unallocated_employees": 6,
+        "multi_allocated_employees": 2,
+        "multi_allocated_employee_names": [
+            "Mustafa Mohammed",
+            "Agam Shah"
+        ],
+        "project_employees": 2,
+        "retainer_employees": 13,
+        "internal_employees": 9,
+        "completed_projects": 1,
+        "completed_project_names": [
+            "Apollo Hospital"
+        ],
+        "closed_projects": 1,
+        "closed_project_names": [
+            "Pocket Studio"
+        ]
+    },
+    "unallocated_employee_list": [
+        {
+            "name": "Samay Gada",
+            "current_role": "Tech Lead",
+            "reporting_to": "Chintan Shah"
+        },
+        {
+            "name": "Siddesh Kale",
+            "current_role": "Software Developer",
+            "reporting_to": "Dhruv Gansinghani"
+        },
+        {
+            "name": "Nishant Patil",
+            "current_role": "Software Developer",
+            "reporting_to": "Dhruv Gansinghani"
+        },
+        {
+            "name": "Chintan Limbad",
+            "current_role": "Data Engineer - Fresher",
+            "reporting_to": "Rajvee Gala"
+        },
+        {
+            "name": "Praveen Kumar",
+            "current_role": "Gen AI - Fresher",
+            "reporting_to": "Samay Gada"
+        },
+        {
+            "name": "Jigar Rambhiya",
+            "current_role": "Machine learning - Intern",
+            "reporting_to": "Rajvee Gala"
+        }
+    ],
+    "project_allocation_summary": [
+        {
+            "project_name": "Vaultify",
+            "employee_count": 5,
+            "employees": [
+                "Agam Shah",
+                "Akshay Ahuja",
+                "Jagruti Shah",
+                "Pratik Sawant",
+                "Sakshi Patil"
+            ]
+        },
+        {
+            "project_name": "GenAI Learning Task",
+            "employee_count": 5,
+            "employees": [
+                "Aryan Gupta",
+                "Dhruv Solanki",
+                "Krishank Daga",
+                "Nishita Patel",
+                "Parth Gala"
+            ]
+        },
+        {
+            "project_name": "Jindal Steel",
+            "employee_count": 4,
+            "employees": [
+                "Bilal Sani",
+                "Jainam Nisar",
+                "Mustafa Mohammed",
+                "Naveed Shaikh"
+            ]
+        },
+        {
+            "project_name": "JM Finance",
+            "employee_count": 2,
+            "employees": [
+                "Osama Patel",
+                "Swaraj Baswad"
+            ]
+        },
+        {
+            "project_name": "Mahindra CFO",
+            "employee_count": 2,
+            "employees": [
+                "Arham Sangoi",
+                "Dhruv Gansinghani"
+            ]
+        },
+        {
+            "project_name": "Weekly automation task",
+            "employee_count": 2,
+            "employees": [
+                "Shubham Jain",
+                "Shubham Satpute"
+            ]
+        },
+        {
+            "project_name": "E-Mail automation",
+            "employee_count": 2,
+            "employees": [
+                "Dhruv Bharwada",
+                "Harsh Mishra"
+            ]
+        },
+        {
+            "project_name": "TUI",
+            "employee_count": 1,
+            "employees": [
+                "Ramesh Lodh"
+            ]
+        },
+        {
+            "project_name": "IKS SRE",
+            "employee_count": 1,
+            "employees": [
+                "Rajvee Gala"
+            ]
+        }
+    ]
+}

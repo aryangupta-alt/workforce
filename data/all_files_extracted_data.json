@@ -75,7 +75,7 @@
                 "Unnamed: 1": "Pratik Sawant",
                 "Unnamed: 2": "2022-09-05 00:00:00",
                 "Unnamed: 3": "Software Developer",
-                "Unnamed: 4": "Vaulty",
+                "Unnamed: 4": "Vaultify",
                 "Unnamed: 5": "Office",
                 "Unnamed: 6": "2026-02-09 00:00:00",
                 "Unnamed: 7": "2026-11-03 00:00:00",
@@ -174,7 +174,7 @@
                 "Unnamed: 1": "Jagruti Shah",
                 "Unnamed: 2": NaN,
                 "Unnamed: 3": "Product Manager",
-                "Unnamed: 4": "Vaulty",
+                "Unnamed: 4": "Vaultify",
                 "Unnamed: 5": "Office",
                 "Unnamed: 6": "2026-02-09 00:00:00",
                 "Unnamed: 7": "2026-11-03 00:00:00",
@@ -229,7 +229,7 @@
                 "Unnamed: 1": "Agam Shah",
                 "Unnamed: 2": "2025-11-13 00:00:00",
                 "Unnamed: 3": "Gen AI Developer",
-                "Unnamed: 4": "Vaulty",
+                "Unnamed: 4": "Vaultify",
                 "Unnamed: 5": "Office",
                 "Unnamed: 6": "2026-02-09 00:00:00",
                 "Unnamed: 7": "2026-11-03 00:00:00",
@@ -464,15 +464,15 @@
                 "Project Name": "Vaultify",
                 "Client Name": "VATSAL DESAI",
                 "Owner Name": "Jagruti Shah",
-                "Project Team": "Pratik Sawant\nSakshi Patil\nAkshay Ahuja",
+                "Project Team": "Pratik Sawant\nSakshi Patil\nAkshay Ahuja\nAgam Shah\nJagruti Shah",
                 "Project Start Date": "2026-02-09 00:00:00",
                 "Status": "In Progress"
             },
             {
-                "Project Name": "Jindal Steel JARVIS",
+                "Project Name": "Jindal Steel ",
                 "Client Name": "Jindal Steel ",
                 "Owner Name": "Chintan Shah",
-                "Project Team": "Bilal Sani\nJainam Nisar\nNaveed Shaikh",
+                "Project Team": "Bilal Sani\nJainam Nisar\nNaveed Shaikh\nMustafa Mohammed\n\n",
                 "Project Start Date": "2026-05-26 00:00:00",
                 "Status": "In Progress"
             },
@@ -482,6 +482,22 @@
                 "Owner Name": "Chintan Shah",
                 "Project Team": "Rajvee Gala",
                 "Project Start Date": "NaT",
+                "Status": "In Progress"
+            },
+            {
+                "Project Name": "JM Finance",
+                "Client Name": "JM Finance",
+                "Owner Name": "Jagruti Shah",
+                "Project Team": "Osama Patel\nSwaraj Baswad",
+                "Project Start Date": "2026-02-18 00:00:00",
+                "Status": "In Progress"
+            },
+            {
+                "Project Name": "TUI",
+                "Client Name": "TUI",
+                "Owner Name": "Kailash ",
+                "Project Team": "Ramesh Lodh",
+                "Project Start Date": "2026-02-09 00:00:00",
                 "Status": "In Progress"
             }
         ],
@@ -495,6 +511,36 @@
                 "Start Date": "2025-07-14 00:00:00",
                 "End Date": "2026-05-20 00:00:00",
                 "Status": "Closed"
+            },
+            {
+                "Project Name": "GenAI Learning Task",
+                "Client Name": "Wohlig",
+                "Owner Name": "Ankit Shrivastav",
+                "Owner Email": "ankit.shrivastav@wohlig.com",
+                "Project Team": "Aryan Gupta\nDhruv Solanki\nKrishank Daga\nNishita Patel\nParth Gala",
+                "Start Date": "2026-06-01 00:00:00",
+                "End Date": "2026-06-16 00:00:00",
+                "Status": "Active"
+            },
+            {
+                "Project Name": "Weekly Automation Task",
+                "Client Name": "Wohlig",
+                "Owner Name": "Ankit Shrivastav",
+                "Owner Email": "ankit.shrivastav@wohlig.com",
+                "Project Team": "Shubham Jain\nShubham Satpute\n\n",
+                "Start Date": "2026-06-01 00:00:00",
+                "End Date": "2026-06-16 00:00:00",
+                "Status": "Active"
+            },
+            {
+                "Project Name": "E-mail Automation",
+                "Client Name": "Wohlig",
+                "Owner Name": "Chintan Shah",
+                "Owner Email": "chintan@wohlig.com",
+                "Project Team": "Harsh Mishra\nDhruv Bharwada\n",
+                "Start Date": "2026-06-01 00:00:00",
+                "End Date": "2026-06-16 00:00:00",
+                "Status": "Active"
             }
         ]
     }
