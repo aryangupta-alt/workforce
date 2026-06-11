@@ -1,30 +1,35 @@
 {
     "workforce_overview": {
         "active_employees": 31,
-        "unallocated_employees": 6,
-        "multi_allocated_employees": 2,
-        "multi_allocated_employee_names": [
-            "Mustafa Mohammed",
-            "Agam Shah"
-        ],
-        "project_employees": 2,
-        "retainer_employees": 13,
-        "internal_employees": 9,
-        "completed_projects": 1,
-        "completed_project_names": [
-            "Apollo Hospital"
-        ],
-        "closed_projects": 1,
-        "closed_project_names": [
-            "Pocket Studio"
-        ]
+        "current_projects": 8,
+        "unallocated_employees": 5,
+        "project_distribution": {
+            "client_projects": {
+                "count": 1,
+                "projects": [
+                    "Mahindra CFO"
+                ]
+            },
+            "retainer_projects": {
+                "count": 5,
+                "projects": [
+                    "IKS SRE",
+                    "JM Finance",
+                    "Jindal Steel",
+                    "TUI",
+                    "Vaultify"
+                ]
+            },
+            "internal_projects": {
+                "count": 2,
+                "projects": [
+                    "E-mail Automation",
+                    "Weekly Automation Task"
+                ]
+            }
+        }
     },
     "unallocated_employee_list": [
-        {
-            "name": "Samay Gada",
-            "current_role": "Tech Lead",
-            "reporting_to": "Chintan Shah"
-        },
         {
             "name": "Siddesh Kale",
             "current_role": "Software Developer",

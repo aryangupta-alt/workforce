@@ -4,3 +4,9 @@
 my-project-41584-498506-8e338a591f9b.json
 reports/*.html
 reports/*.pdf
+
+**pycache**/
+*.pyc
+
+.idea/
+.vscode/

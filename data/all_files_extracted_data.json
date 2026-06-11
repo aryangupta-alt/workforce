@@ -434,7 +434,22 @@
                 "Unnamed: 8": "Ankit Shrivastav"
             }
         ],
-        "Exit": [],
+        "Exit": [
+            {
+                "No.": 1,
+                "Employee Name": "Aiman Ansari",
+                "LWD": "2026-05-21 00:00:00",
+                "Replaced By": "Non",
+                "Projects": "Pocket Stdio"
+            },
+            {
+                "No.": 2,
+                "Employee Name": "Wajid",
+                "LWD": "2026-05-21 00:00:00",
+                "Replaced By": "Non",
+                "Projects": "Pocket Stdio"
+            }
+        ],
         "Project": [
             {
                 "Sr No.": 1,
@@ -511,16 +526,6 @@
                 "Start Date": "2025-07-14 00:00:00",
                 "End Date": "2026-05-20 00:00:00",
                 "Status": "Closed"
-            },
-            {
-                "Project Name": "GenAI Learning Task",
-                "Client Name": "Wohlig",
-                "Owner Name": "Ankit Shrivastav",
-                "Owner Email": "ankit.shrivastav@wohlig.com",
-                "Project Team": "Aryan Gupta\nDhruv Solanki\nKrishank Daga\nNishita Patel\nParth Gala",
-                "Start Date": "2026-06-01 00:00:00",
-                "End Date": "2026-06-16 00:00:00",
-                "Status": "Active"
             },
             {
                 "Project Name": "Weekly Automation Task",

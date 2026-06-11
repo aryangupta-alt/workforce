@@ -1,0 +1,255 @@
+{
+  "step_by_step_reasoning": {
+    "step_1_extraction_and_role_filtering": "Extracted all names from the 'Active' sheet. Included all roles, specifically ensuring 'Interns' (Shubham Jain, Shubham Satpute, Aryan Gupta, Dhruv Solanki, Nishita Patel, Dhruv Bharwada, Harsh Mishra, Akshay Ahuja, Sakshi Patil, Jigar Rambhiya, Krishank Daga) and 'Tech Leads' (Samay Gada, Bilal Sani) are present. Total deduplicated master list count: 31.",
+    "step_2_ghosts_and_typos": "Resolved 'Apollo Hispital' to 'Apollo Hospital'. Resolved empty rows in Active sheet: the row following Mustafa Mohammed (Project: Jindal Steel) is assigned to Mustafa Mohammed; the row following Agam Shah (Project: Apollo Hospital) is assigned to Agam Shah. Ghost employees identified in project sheets: 'Wajid Jamadar' and 'Aiman Ansari' (both in Exit list) were discarded from active allocations.",
+    "step_3_status_filtering": "Excluded 'Apollo Hospital' (Status: Done) from active projects. Excluded 'Pocket Studio' (Status: Closed) from active internal tasks. These are moved to completed/closed lists.",
+    "step_4_build_active_allocations": "Constructed active lists: Projects (Mahindra CFO), Retainers (Vaultify, Jindal Steel, IKS SRE, JM Finance, TUI), and Internal (Weekly Automation Task, E-mail Automation). Unified these into the active_projects_table.",
+    "step_5_build_unallocated": "Identified employees with 'No Task' or empty projects: Siddesh Kale, Nishant Patil, Chintan Limbad, Praveen Kumar, Jigar Rambhiya, and Samay Gada. CRITICAL: Samay Gada is a Tech Lead and is therefore excluded from the unallocated list. Final unallocated count: 5.",
+    "step_6_multi_allocation_cross_check": "Scanned all active lists. Mustafa Mohammed appears in both Retainers (Jindal Steel) and the (now excluded) Apollo Hospital project, but since Apollo is 'Done', he is only active in Jindal Steel. No employees appear in more than one ACTIVE list. Total multi-allocated: 0.",
+    "step_7_calculate_totals": "Total Filtered Employees: 31 (Step 1). Total Unallocated: 5 (Step 5). Total Multi-allocated: 0 (Step 6). Total Active Projects: 8 (1 Project + 5 Retainers + 2 Internal). Arithmetic matches logical flow."
+  },
+  "active_employees_filtered_list": [
+    "Pratik Sawant",
+    "Osama Patel",
+    "Swaraj Baswad",
+    "Samay Gada",
+    "Bilal Sani",
+    "Ramesh Lodh",
+    "Jainam Nisar",
+    "Dhruv Gansinghani",
+    "Naveed Shaikh",
+    "Jagruti Shah",
+    "Mustafa Mohammed",
+    "Arham Sangoi",
+    "Hanishka Jain",
+    "Agam Shah",
+    "Siddesh Kale",
+    "Nishant Patil",
+    "Rajvee Gala",
+    "Shubham Jain",
+    "Shubham Satpute",
+    "Chintan Limbad",
+    "Praveen Kumar",
+    "Aryan Gupta",
+    "Dhruv Solanki",
+    "Nishita Patel",
+    "Dhruv Bharwada",
+    "Harsh Mishra",
+    "Akshay Ahuja",
+    "Sakshi Patil",
+    "Jigar Rambhiya",
+    "Parth Gala",
+    "Krishank Daga"
+  ],
+  "unallocated_employees": [
+    {
+      "name": "Siddesh Kale",
+      "current_role": "Software Developer",
+      "reporting_to": "Dhruv Gansinghani"
+    },
+    {
+      "name": "Nishant Patil",
+      "current_role": "Software Developer",
+      "reporting_to": "Dhruv Gansinghani"
+    },
+    {
+      "name": "Chintan Limbad",
+      "current_role": "Data Engineer - Fresher",
+      "reporting_to": "Rajvee Gala"
+    },
+    {
+      "name": "Praveen Kumar",
+      "current_role": "Gen AI - Fresher",
+      "reporting_to": "Samay Gada"
+    },
+    {
+      "name": "Jigar Rambhiya",
+      "current_role": "Machine learning - Intern",
+      "reporting_to": "Rajvee Gala"
+    }
+  ],
+  "project_allocations": {
+    "projects": [
+      {
+        "project_name": "Mahindra CFO",
+        "employee_count": 2,
+        "employees": [
+          "Dhruv Gansinghani",
+          "Arham Sangoi"
+        ]
+      }
+    ],
+    "retainers": [
+      {
+        "project_name": "Vaultify",
+        "employee_count": 5,
+        "employees": [
+          "Pratik Sawant",
+          "Sakshi Patil",
+          "Akshay Ahuja",
+          "Agam Shah",
+          "Jagruti Shah"
+        ]
+      },
+      {
+        "project_name": "Jindal Steel",
+        "employee_count": 4,
+        "employees": [
+          "Bilal Sani",
+          "Jainam Nisar",
+          "Naveed Shaikh",
+          "Mustafa Mohammed"
+        ]
+      },
+      {
+        "project_name": "IKS SRE",
+        "employee_count": 1,
+        "employees": [
+          "Rajvee Gala"
+        ]
+      },
+      {
+        "project_name": "JM Finance",
+        "employee_count": 2,
+        "employees": [
+          "Osama Patel",
+          "Swaraj Baswad"
+        ]
+      },
+      {
+        "project_name": "TUI",
+        "employee_count": 1,
+        "employees": [
+          "Ramesh Lodh"
+        ]
+      }
+    ],
+    "internal": [
+      {
+        "project_name": "Weekly Automation Task",
+        "employee_count": 2,
+        "employees": [
+          "Shubham Jain",
+          "Shubham Satpute"
+        ]
+      },
+      {
+        "project_name": "E-mail Automation",
+        "employee_count": 2,
+        "employees": [
+          "Harsh Mishra",
+          "Dhruv Bharwada"
+        ]
+      }
+    ]
+  },
+  "active_projects_table": [
+    {
+      "project_name": "Mahindra CFO",
+      "project_type": "Project",
+      "status": "In Progress",
+      "employee_count": 2,
+      "employees": [
+        "Dhruv Gansinghani",
+        "Arham Sangoi"
+      ]
+    },
+    {
+      "project_name": "Vaultify",
+      "project_type": "Retainer",
+      "status": "In Progress",
+      "employee_count": 5,
+      "employees": [
+        "Pratik Sawant",
+        "Sakshi Patil",
+        "Akshay Ahuja",
+        "Agam Shah",
+        "Jagruti Shah"
+      ]
+    },
+    {
+      "project_name": "Jindal Steel",
+      "project_type": "Retainer",
+      "status": "In Progress",
+      "employee_count": 4,
+      "employees": [
+        "Bilal Sani",
+        "Jainam Nisar",
+        "Naveed Shaikh",
+        "Mustafa Mohammed"
+      ]
+    },
+    {
+      "project_name": "IKS SRE",
+      "project_type": "Retainer",
+      "status": "In Progress",
+      "employee_count": 1,
+      "employees": [
+        "Rajvee Gala"
+      ]
+    },
+    {
+      "project_name": "JM Finance",
+      "project_type": "Retainer",
+      "status": "In Progress",
+      "employee_count": 2,
+      "employees": [
+        "Osama Patel",
+        "Swaraj Baswad"
+      ]
+    },
+    {
+      "project_name": "TUI",
+      "project_type": "Retainer",
+      "status": "In Progress",
+      "employee_count": 1,
+      "employees": [
+        "Ramesh Lodh"
+      ]
+    },
+    {
+      "project_name": "Weekly Automation Task",
+      "project_type": "Internal",
+      "status": "Active",
+      "employee_count": 2,
+      "employees": [
+        "Shubham Jain",
+        "Shubham Satpute"
+      ]
+    },
+    {
+      "project_name": "E-mail Automation",
+      "project_type": "Internal",
+      "status": "Active",
+      "employee_count": 2,
+      "employees": [
+        "Harsh Mishra",
+        "Dhruv Bharwada"
+      ]
+    }
+  ],
+  "workforce_overview": {
+    "total_filtered_employees": 31,
+    "total_unallocated_employees": 5,
+    "total_multi_allocated_employees": 0,
+    "multi_allocated_names": [],
+    "total_active_projects": 8,
+    "total_project_type_employees": 2,
+    "total_retainer_type_employees": 13,
+    "total_internal_type_employees": 4,
+    "completed_projects_count": 1,
+    "completed_project_names": [
+      "Apollo Hospital"
+    ],
+    "closed_projects_count": 1,
+    "closed_project_names": [
+      "Pocket Studio"
+    ]
+  },
+  "audit_logs": [
+    "ROLE FILTER: Excluded Samay Gada from unallocated \u2014 role is Tech Lead.",
+    "TYPO RESOLUTION: 'Apollo Hispital' corrected to 'Apollo Hospital'.",
+    "GHOST REMOVAL: Discarded Aiman Ansari and Wajid Jamadar from active allocations (found in Exit list).",
+    "STATUS FILTER: Excluded 'Apollo Hospital' (Done) and 'Pocket Studio' (Closed) from active arrays."
+  ]
+}
