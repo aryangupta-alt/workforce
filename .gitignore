@@ -1,12 +1,21 @@
+# Environment
 .env
-.DS_Store
+
+# Python
 .venv/
-my-project-41584-498506-8e338a591f9b.json
+__pycache__/
+*.pyc
+
+# Mac
+.DS_Store
+
+# Google credentials
+config/google_service_account.json
+
+# Generated reports
 reports/*.html
 reports/*.pdf
 
-**pycache**/
-*.pyc
-
-.idea/
-.vscode/
+# Generated data
+data/all_files_extracted_data.json
+data/workforce_analysis_output.json

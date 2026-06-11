@@ -1,12 +1,12 @@
 {
   "step_by_step_reasoning": {
-    "step_1_extraction_and_role_filtering": "Extracted all names from the 'Active' sheet. Included all roles, specifically ensuring 'Interns' (Shubham Jain, Shubham Satpute, Aryan Gupta, Dhruv Solanki, Nishita Patel, Dhruv Bharwada, Harsh Mishra, Akshay Ahuja, Sakshi Patil, Jigar Rambhiya, Krishank Daga) and 'Tech Leads' (Samay Gada, Bilal Sani) are present. Total deduplicated master list count: 31.",
-    "step_2_ghosts_and_typos": "Resolved 'Apollo Hispital' to 'Apollo Hospital'. Resolved empty rows in Active sheet: the row following Mustafa Mohammed (Project: Jindal Steel) is assigned to Mustafa Mohammed; the row following Agam Shah (Project: Apollo Hospital) is assigned to Agam Shah. Ghost employees identified in project sheets: 'Wajid Jamadar' and 'Aiman Ansari' (both in Exit list) were discarded from active allocations.",
-    "step_3_status_filtering": "Excluded 'Apollo Hospital' (Status: Done) from active projects. Excluded 'Pocket Studio' (Status: Closed) from active internal tasks. These are moved to completed/closed lists.",
+    "step_1_extraction_and_role_filtering": "Extracted all names from the 'Active' sheet. Included all roles, specifically ensuring 'Interns' (e.g., Shubham Jain, Aryan Gupta) and 'Tech Leads' (Samay Gada, Bilal Sani) are present. Deduplicated the list to 31 unique employees.",
+    "step_2_ghosts_and_typos": "Resolved 'Apollo Hispital' to 'Apollo Hospital'. Resolved empty rows in Active sheet: the row with project 'Jindal Steel' was assigned to Mustafa Mohammed (the last named employee above it), and the row with 'Apollo Hispital' was assigned to Agam Shah. Ghost employees 'Aiman Ansari' and 'Wajid Jamadar' (found in Internal sheet but listed in Exit sheet) were discarded.",
+    "step_3_status_filtering": "Excluded 'Apollo Hospital' (Project) as status is 'Done'. Excluded 'Pocket Studio' (Internal) as status is 'Closed'. These are moved to completed/closed lists.",
     "step_4_build_active_allocations": "Constructed active lists: Projects (Mahindra CFO), Retainers (Vaultify, Jindal Steel, IKS SRE, JM Finance, TUI), and Internal (Weekly Automation Task, E-mail Automation). Unified these into the active_projects_table.",
-    "step_5_build_unallocated": "Identified employees with 'No Task' or empty projects: Siddesh Kale, Nishant Patil, Chintan Limbad, Praveen Kumar, Jigar Rambhiya, and Samay Gada. CRITICAL: Samay Gada is a Tech Lead and is therefore excluded from the unallocated list. Final unallocated count: 5.",
-    "step_6_multi_allocation_cross_check": "Scanned all active lists. Mustafa Mohammed appears in both Retainers (Jindal Steel) and the (now excluded) Apollo Hospital project, but since Apollo is 'Done', he is only active in Jindal Steel. No employees appear in more than one ACTIVE list. Total multi-allocated: 0.",
-    "step_7_calculate_totals": "Total Filtered Employees: 31 (Step 1). Total Unallocated: 5 (Step 5). Total Multi-allocated: 0 (Step 6). Total Active Projects: 8 (1 Project + 5 Retainers + 2 Internal). Arithmetic matches logical flow."
+    "step_5_build_unallocated": "Identified employees with 'No Task' or empty project: Siddesh Kale, Nishant Patil, Chintan Limbad, Praveen Kumar, Jigar Rambhiya. Samay Gada (Tech Lead) was identified as having no project but was EXCLUDED from this list per the critical rule.",
+    "step_6_multi_allocation_cross_check": "Cross-referenced all active lists. Mustafa Mohammed appears in both 'Jindal Steel' (Retainer) and 'Apollo Hospital' (but Apollo is Closed, so not counted). No employee appears in more than one ACTIVE list. Total multi-allocated: 0.",
+    "step_7_calculate_totals": "Total Filtered Employees: 31. Unallocated: 5. Multi-allocated: 0. Active Projects: 1 (Mahindra CFO). Retainers: 5. Internal: 2. Completed/Closed: 2."
   },
   "active_employees_filtered_list": [
     "Pratik Sawant",
@@ -249,7 +249,8 @@
   "audit_logs": [
     "ROLE FILTER: Excluded Samay Gada from unallocated \u2014 role is Tech Lead.",
     "TYPO RESOLUTION: 'Apollo Hispital' corrected to 'Apollo Hospital'.",
-    "GHOST REMOVAL: Discarded Aiman Ansari and Wajid Jamadar from active allocations (found in Exit list).",
-    "STATUS FILTER: Excluded 'Apollo Hospital' (Done) and 'Pocket Studio' (Closed) from active arrays."
+    "GHOST REMOVAL: Discarded Aiman Ansari and Wajid Jamadar (Exit list).",
+    "EMPTY ROW RESOLUTION: Assigned project 'Jindal Steel' to Mustafa Mohammed.",
+    "EMPTY ROW RESOLUTION: Assigned project 'Apollo Hospital' to Agam Shah."
   ]
 }

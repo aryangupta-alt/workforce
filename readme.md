@@ -49,19 +49,8 @@ The platform processes workforce allocation data, generates professional HTML/PD
 managin_app/
 
 ├── data/
-│   ├── Wohlig Active Employee Data.xlsx
 │   ├── all_files_extracted_data.json
-│   └── processed_workforce_data.json
-│
-├── img/
-│   └── wohlig_logo.webp
-│
-├── templates/
-│   └── workforce_report_template.html
-│
-├── reports/
-│   ├── workforce_report.html
-│   └── workforce_report.pdf
+│   └── workforce_analysis_output.json
 │
 ├── services/
 │   ├── report_service.py
@@ -72,10 +61,21 @@ managin_app/
 │   ├── 01_extraction.ipynb
 │   └── 02_insights.ipynb
 │
+├── templates/
+│   └── workforce_report_template.html
+│
+├── reports/
+│   ├── workforce_report.html
+│   └── workforce_report.pdf
+│
+├── img/
+│   └── wohlig_logo.webp
+│
 ├── main.py
-├── .env
 ├── requirements.txt
 └── README.md
+
+
 ```
 
 ---
@@ -172,11 +172,17 @@ reports/workforce_report.pdf
 ## Current Workflow
 
 ```text
-Workforce Excel
+Excel Sheets
       ↓
-Extraction Notebook
+01_extraction.ipynb
       ↓
-Processed Workforce JSON
+all_files_extracted_data.json
+      ↓
+02_insights.ipynb (Gemma 4 31B)
+      ↓
+workforce_analysis_output.json
+      ↓
+report_service.py
       ↓
 HTML Report
       ↓
